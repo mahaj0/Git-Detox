@@ -1,4 +1,4 @@
-'''# Git Detox 🎨
+'''# Git Detox
 
 **Git Detox** is your Git safety net. It's a tool that visualizes local Git activity (branches, stashes, reflog, dangling commits) in a unified view and highlights recoverable or at-risk work.
 
