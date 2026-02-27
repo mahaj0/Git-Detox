@@ -1,0 +1,19 @@
+[project]
+name = "git-detox"
+version = "0.1.0"
+description = "A tool that visualizes local Git activity and highlights recoverable or at-risk work."
+authors = [{ name = "Manus", email = "manus@example.com" }]
+dependencies = [
+    "click>=8.1.0",
+    "rich>=13.0.0",
+    "textual>=0.40.0",
+    "pydantic>=2.0.0",
+]
+requires-python = ">=3.10"
+
+[project.scripts]
+git-detox = "git_detox.cli.main:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
