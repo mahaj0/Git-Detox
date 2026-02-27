@@ -2,7 +2,7 @@
 name = "git-detox"
 version = "0.1.0"
 description = "A tool that visualizes local Git activity and highlights recoverable or at-risk work."
-authors = [{ name = "Manus", email = "manus@example.com" }]
+authors = [{ name = "git", email = "maha@example.com" }]
 dependencies = [
     "click>=8.1.0",
     "rich>=13.0.0",
